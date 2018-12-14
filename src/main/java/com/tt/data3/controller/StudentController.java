@@ -84,7 +84,7 @@ public class StudentController {
         return page;
     }
     //根据学生姓名查询学生信息
-    @RequestMapping("/getStuByName")
+    @RequestMapping("/getStuByName1")
     @ResponseBody
     public Object getStuByName(@RequestParam String studentName) {
         List<Student> list=studentService.getStuByName(studentName);
